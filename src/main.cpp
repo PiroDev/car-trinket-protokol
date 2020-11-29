@@ -2,8 +2,8 @@
 
 #include <iostream>
 
-#include "../include/car.h"
-#include "../include/trinket.h"
+#include "car.h"
+#include "trinket.h"
 
 using std::cout;
 using std::endl;

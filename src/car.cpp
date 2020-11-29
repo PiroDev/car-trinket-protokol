@@ -1,8 +1,8 @@
-#include "../include/car.h"
+#include "car.h"
 
 #include <assert.h>
 
-#include "../include/crypto_functions.h"
+#include "crypto_functions.h"
 
 Car::Car(map<string, RSA::PublicKey> keys) {
     keysTable = keys;
