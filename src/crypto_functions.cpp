@@ -1,4 +1,4 @@
-#include "../include/crypto_functions.h"
+#include "crypto_functions.h"
 
 #include <cryptopp/osrng.h>
 #include <limits.h>

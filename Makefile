@@ -1,10 +1,10 @@
 CXX := g++
-CXX_FLAGS := -std=c++17 -Wall -Werror -pedantic -Wextra
-LFLAGS := -lcryptopp
 OBJDIR := out
 BINDIR := bin
 SRCDIR := src
 INCDIR := include
+LFLAGS := -lcryptopp
+CXX_FLAGS := -I${INCDIR} -std=c++17 -Wall -Werror -pedantic -Wextra
 OBJECTS := $(OBJDIR)/car.o $(OBJDIR)/crypto_functions.o $(OBJDIR)/trinket.o
 
 ifeq ($(mode), debug)

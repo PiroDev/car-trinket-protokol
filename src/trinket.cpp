@@ -1,8 +1,8 @@
-#include "../include/trinket.h"
+#include "trinket.h"
 
 #include <assert.h>
 
-#include "../include/crypto_functions.h"
+#include "crypto_functions.h"
 
 Trinket::Trinket(string trinketId) {
     id = trinketId;
